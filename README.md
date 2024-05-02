@@ -3,19 +3,18 @@
 ## Entregáveis
 
 <details>
-  <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary>
+  <summary><strong>O que foi desenvolvido</strong></summary>
 
 - Foi desenvolvido uma API e um banco de dados para a produção de conteúdo para um blog;
 - A aplicação foi desenvolvida em `Node.js` utilizando `sequelize` para fazer um `CRUD` de posts;
   - Foram desenvolvidos _endpoints_ conectados ao banco de dados seguindo os princípios do `REST`.
 
-<br />
 </details>
 
 ## Orientações
 
 <details>
-  <summary><strong>🐋 Rodando no Docker</strong></summary>
+  <summary><strong>Rodando o projeto no Docker</strong></summary>
 
   > :information_source: Rode os serviços `node` e `db` com o comando `docker-compose up -d --build`.
 
@@ -23,13 +22,11 @@
 
 - A partir daqui é possível executar o container `blogs_api` via CLI ou VSCode;
   > :information_source: Use o comando `docker exec -it blogs_api bash`.
-  - Esse comando te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
+  - Esse comando dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
 
   > :information_source: Instale as dependências com `npm install`. (dentro do container);
 
 </details>
-
-<br />
 
 ## Funcionalidades do projeto
 
